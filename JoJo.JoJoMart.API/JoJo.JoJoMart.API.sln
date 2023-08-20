@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoJo.Catalog.Service", "..\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductManagement", "ProductManagement", "{C5CC2218-14A6-4EE7-9E43-66044F707762}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoJo.JoJoMart.Product.API", "..\JoJo.JoJoMart.Product.API\JoJo.JoJoMart.Product.API.csproj", "{DD0CCC79-33EC-41F6-AAAF-58D76AE2CB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoJo.JoJoMart.Product.API", "..\JoJo.JoJoMart.Product.API\JoJo.JoJoMart.Product.API.csproj", "{DD0CCC79-33EC-41F6-AAAF-58D76AE2CB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoJo.JoJoMart.Product.Core", "..\JoJo.JoJoMart.Product.Core\JoJo.JoJoMart.Product.Core.csproj", "{A7FABA6A-0DCE-4881-8B0C-808091F97B69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoJo.JoJoMart.Product.Core", "..\JoJo.JoJoMart.Product.Core\JoJo.JoJoMart.Product.Core.csproj", "{A7FABA6A-0DCE-4881-8B0C-808091F97B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoJo.JoJoMart.Product.Data", "..\JoJo.JoJoMart.Product.Data\JoJo.JoJoMart.Product.Data.csproj", "{8DD08D20-8741-452C-A277-774FE76A3D56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JoJo.JoJoMart.Product.Data", "..\JoJo.JoJoMart.Product.Data\JoJo.JoJoMart.Product.Data.csproj", "{8DD08D20-8741-452C-A277-774FE76A3D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoJo.JoJoMart.Common", "..\JoJo.JoJoMart.Common\JoJo.JoJoMart.Common.csproj", "{52FFB769-67EC-4289-9C4A-BB18C0231892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{8DD08D20-8741-452C-A277-774FE76A3D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DD08D20-8741-452C-A277-774FE76A3D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DD08D20-8741-452C-A277-774FE76A3D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52FFB769-67EC-4289-9C4A-BB18C0231892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FFB769-67EC-4289-9C4A-BB18C0231892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FFB769-67EC-4289-9C4A-BB18C0231892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FFB769-67EC-4289-9C4A-BB18C0231892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
